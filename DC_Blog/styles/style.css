@@ -1,0 +1,81 @@
+/*
+    - This goes for any of my CSS, but I want just general feedback on whether this is organized well and/or could that be improved
+*/
+
+/* Header */
+
+html {
+    padding: 5% 15% 2% 15%;
+    background-color: #F5F5F0;
+}
+
+#header-div {
+    position: relative;
+}
+
+.inline-header {
+    display: inline-block;
+    font-style: serif;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#info-list {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px; 
+}
+
+#info-list li {
+    padding-left: 10px;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#date-follow {
+    text-align: center;
+    color: #A8A8A5;
+}
+
+
+/* Main */
+
+#title {
+    text-align: center;
+}
+
+#follow-button {
+    color: white;
+    background-color: cadetblue;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
+#paragraphs {
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#nav-list {
+    padding-left: 0;
+}
+
+#nav-list li {
+    color: #A8A8A5;
+    padding-right: 10px;
+}
+
+
+/* Footer */
+
+footer div {
+    text-align: center;
+    color: #A8A8A5;
+}
